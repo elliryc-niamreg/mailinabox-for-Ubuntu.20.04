@@ -76,7 +76,7 @@ mkdir -p "$STORAGE_ROOT/dns/dnssec";
 # so that trust isn't broken with deployed DS records, but we won't generate those
 # keys on new systems.
 FIRST=1 #NODOC
-for algo in RSASHA256 ECDSAP256SHA256; do
+for algo in RSASHA256 ECDSAP384SHA384; do
 if [ ! -f "$STORAGE_ROOT/dns/dnssec/$algo.conf" ]; then
 	if [ $FIRST == 1 ]; then
 		echo "Generating DNSSEC signing keys..."
