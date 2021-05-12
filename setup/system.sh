@@ -90,11 +90,11 @@ fi
 # come from there and minimal Ubuntu installs may have it turned off.
 hide_output add-apt-repository -y universe
 
-# Install the certbot PPA.
-hide_output add-apt-repository -y ppa:certbot/certbot
+# Install the certbot PPA. # Commented for Ubuntu 20.04
+#hide_output add-apt-repository -y ppa:certbot/certbot # Commented for Ubuntu 20.04
 
-# Install the duplicity PPA.
-hide_output add-apt-repository -y ppa:duplicity-team/duplicity-release-git
+# Install the duplicity PPA. # Commented for Ubuntu 20.04
+#ide_output add-apt-repository -y ppa:duplicity-team/duplicity-release-git # Commented for Ubuntu 20.04
 
 # ### Update Packages
 
