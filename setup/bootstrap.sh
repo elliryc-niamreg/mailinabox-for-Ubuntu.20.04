@@ -54,12 +54,12 @@ if [ ! -d $HOME/mailinabox ]; then
 		echo
 	fi
 
-	echo Downloading Mail-in-a-Box $TAG. . .
-	git clone \
-		-b $TAG --depth 1 \
-		https://github.com/mail-in-a-box/mailinabox \
-		$HOME/mailinabox \
-		< /dev/null 2> /dev/null
+	#echo Downloading Mail-in-a-Box $TAG. . . # Commented for not downdloading bad version
+	#git clone \                              # Commented for not downdloading bad version
+	#	-b $TAG --depth 1 \                   # Commented for not downdloading bad version
+	#	https://github.com/mail-in-a-box/mailinabox \   # Commented for not downdloading bad version
+	#	$HOME/mailinabox \                              # Commented for not downdloading bad version
+	#	< /dev/null 2> /dev/null                        # Commented for not downdloading bad version
 
 	echo
 fi
