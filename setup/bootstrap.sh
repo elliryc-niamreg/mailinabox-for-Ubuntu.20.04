@@ -61,8 +61,8 @@ if [ ! -d $HOME/mailinabox ]; then
 	#	$HOME/mailinabox \                              # Commented for not downdloading bad version
 	#	< /dev/null 2> /dev/null                        # Commented for not downdloading bad version
 
-	echo
-fi
+	echo                                                # Commented for not downdloading bad version
+fi                                                      # Commented for not downdloading bad version
 
 # Change directory to it.
 cd $HOME/mailinabox
